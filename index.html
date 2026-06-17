@@ -30,8 +30,8 @@ const DEFAULT_EXERCISES=[
   {id:'hip-thrust',name:'Hip thrust',category:'Fessiers'},
   {id:'mollets',name:'Mollets',category:'Mollets'}
 ];
-const SUPABASE_URL='A_REMPLACER_PAR_TON_SUPABASE_URL';
-const SUPABASE_ANON_KEY='A_REMPLACER_PAR_TON_SUPABASE_ANON_KEY';
+const SUPABASE_URL='https://orpbnnnfgsdzhmdvipwt.supabase.co';
+const SUPABASE_ANON_KEY='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9ycGJubm5mZ3NkemhtZHZpcHd0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODE2NzkwMjksImV4cCI6MjA5NzI1NTAyOX0.5rsJ103bGQPp0DkmYAK_m4999uIsBkfYr4M2FHSOBDs';
 const supabaseReady=SUPABASE_URL.startsWith('https://')&&SUPABASE_ANON_KEY.length>30;
 const db=supabaseReady?window.supabase.createClient(SUPABASE_URL,SUPABASE_ANON_KEY):null;
 const EX_KEY='gym-tracker-exercises-v5', USER_KEY='gym-tracker-current-user-v5';
